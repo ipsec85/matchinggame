@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Press+Start+2P&family=Righteous&display=swap');
+
+
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: black;
+  color: #fff;
+  /* background-image: url('../public/img/background-img.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
