@@ -1,4 +1,4 @@
-##Pacman Card Matching Game
+## Pacman Card Matching Game
 
 Game allows player to flip cards and attempt to match Inky, Blinky, Pinky, Clyde, Pac-man, and Mrs. Pac-man in shortest amount of turns.
 
