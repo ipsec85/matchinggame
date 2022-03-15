@@ -3,7 +3,7 @@
   margin: 40px auto;
 }
 
-button {
+.button {
   background: none;
   border: 5px solid blue;
   padding: 6px 12px;
@@ -15,7 +15,7 @@ button {
   font-family: 'Press Start 2P', cursive;
 }
 
-button:hover {
+.button:hover {
   background-color: white;
   color: blue;
 }

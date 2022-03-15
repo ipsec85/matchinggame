@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Press+Start+2P&family=Righteous&display=swap');
 
 
-
 body {
   font-family: 'Press Start 2P', cursive;
   margin: 0;
@@ -9,7 +8,45 @@ body {
   text-align: center;
   background: black;
   color: #fff;
-  /* background-image: url('../public/img/background-img.png');
-  background-repeat: no-repeat;
-  background-size: cover; */
+}
+/* Tablet */
+@media(max-width: 810px) {
+  .App{ 
+    width: 90%;
+  }
+  .App .button {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+
+  .card-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+}
+/* Smart Phone */
+@media(max-width:400px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  .App .button {
+    font-size: 0.7em;
+  }
+  .card img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border: 2px solid blue;
+    border-radius: 6px;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
